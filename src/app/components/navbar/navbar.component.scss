@@ -1,0 +1,21 @@
+img {
+    width: 18%;
+    height: 18%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 0 3px #fff, 0 0 0 5px #5e5c5c;
+    }
+}
+li {
+  padding: 0 10px;
+  cursor: pointer;
+  &:hover {
+    color: #5e5c5c;
+  }
+}
